@@ -24,8 +24,8 @@
 
 
 <!-- 5.view 基本使用 -->
-<view class="box">哈哈哈</view>
-<view>呆呆呆呆</view>
+<view class="box">view 基本使用</view>
+<view hidden="{{true}}">呆呆呆呆</view>
 
 
 <!-- 6 -->

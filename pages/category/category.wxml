@@ -1,4 +1,18 @@
 <!--pages/category/category.wxml-->
-<!-- image -->
-<text>药材圈</text>
-<image></image>
+<!--设置样式的三种样式  -->
+<!-- 1.行内样式 -->
+<view style='color:red; font-size:32px'>样式1</view>
+
+<!-- 2.页内样式 -->
+<view class="box">样式2</view>
+
+
+<!-- 3.全局样式 -->
+<view class="contain">样式3</view>
+
+<!-- 4.WXSS中的单位：rpx -->
+<view class="box1">字体适配</view>
+<view class="box2">字体适配</view>
+
+<!-- 5全局样式导入 -->
+<button class="btn">确定</button>

@@ -1,2 +1,37 @@
 <!--pages/about/about.wxml-->
-<text>交易界面</text>
+<view>{{message}}</view>
+
+
+<!-- 列表渲染 -->
+<!-- 1.wx:for 的回顾 遍历数组、字符串、数字-->
+<!-- <view wx:for="{{['abc','cba','nba']}}">{{item}} {{index}}</view>
+<view wx:for="fdsafdsafdas">{{item}} {{index}}</view>
+<view wx:for="{{9}}">{{item}} {{index}}</view> -->
+
+<!-- block标签 包装元素  不渲染，只接受控制属性 -->
+<block wx:if="{{isShow}}">
+  <button size="mini">按钮</button>
+  <view>哈哈</view>
+  <text>我是内容</text>
+</block>
+
+<!-- wx:for标签 这里最好是用block -->
+<block wx:for="{{3}}">
+  <button size="mini">按钮for</button>
+  <view>哈哈</view>
+  <text>我是内容</text>
+</block>
+
+<!--6. 遍历 movie wx:key的作用提交效率 -->
+<view>------------------------遍历----------------------</view>
+<view wx:for="{{movies}}" wx:for-item="movie">{{movie}}</view>
+
+
+<!--7. template -->
+<view>-----------------------template-------------------</view>
+<template name="cotentItem">
+  <button>按钮</button>
+  <view>你好小程序</view>
+</template>
+
+<template is="cotentItem"/>
