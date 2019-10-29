@@ -31,7 +31,7 @@
       },
       {
         "pagePath": "pages/category/category",
-        "text": "药材圈",
+        "text": "分类",
         "iconPath": "image/tabbar/category.png",
         "selectedIconPath": "image/tabbar/category_pre.png"
       },
