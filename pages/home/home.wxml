@@ -1,10 +1,11 @@
 <!--pages/home/home.wxml-->
-<text class="title">hello world shirong\n</text>
-<text selectable>hello world selectable\n</text>
+<text class="title">知道点2\n</text>
+<text selectable>知道点2 selectable\n</text>
 
 <text space="nbsp">hello world\n</text>
 <text space="ensp">hello world\n</text>
 <text space="emsp">hello world\n</text>
+
 
 <!-- 2. js里面的data数据动态获取 mustache语法 -->
 <button>{{name}}</button>
