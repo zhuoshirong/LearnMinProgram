@@ -1,6 +1,6 @@
 <!--pages/home/home.wxml-->
-<text class="title">hello world shirong\n</text>
-<text selectable>hello world selectable\n</text>
+<text class="title">知识点1\n</text>
+<text selectable>知识点1 selectable\n</text>
 
 <text space="nbsp">hello world\n</text>
 <text space="ensp">hello world\n</text>
