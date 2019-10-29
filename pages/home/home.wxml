@@ -1,0 +1,37 @@
+<!--pages/home/home.wxml-->
+<text class="title">hello world shirong\n</text>
+<text selectable>hello world selectable\n</text>
+
+<text space="nbsp">hello world\n</text>
+<text space="ensp">hello world\n</text>
+<text space="emsp">hello world\n</text>
+
+<!-- 2. js里面的data数据动态获取 mustache语法 -->
+<button>{{name}}</button>
+
+<!-- 3. wx:for 循环遍历数据 -->
+<view wx:for="{{students}}">{{item.name}}--{{item.age}}</view>
+
+<!-- 4.  -->
+<view>conuter的值：{{conuter}}</view>
+<button size="mini" bindtap="handlerBtnClick">点击增加</button>
+<button size="mini" bindtap="handlerBtnDownClick">点击减少</button>
+<button size="mini" type='primary'>按钮样式</button>
+<button size="mini" type='warn'>按钮样式</button>
+<button size="mini" plain>按钮样式</button>
+<button size="mini" disabled>按钮样式</button>
+
+
+<!-- 5.view 基本使用 -->
+<view class="box">哈哈哈</view>
+<view>呆呆呆呆</view>
+
+
+<!-- 6 -->
+<input value="哈哈哈"></input>
+
+<!-- 键盘输入类型type: text number password-->
+<input type="number"></input>
+
+<!-- 输入提示文字 -->
+<input placeholder="请输入内容"></input>

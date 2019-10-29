@@ -1,0 +1,48 @@
+{
+  "pages": [
+    "pages/scroll/scroll",
+    "pages/home/home",
+    "pages/about/about",
+    "pages/category/category",
+    "pages/personal/personal",
+    "assets"
+  ],
+  "window": {
+    "navigationBarBackgroundColor": "#FFFFFF",
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "康美中药城",
+    "backgroundColor": "#eeeeee",
+    "backgroundTextStyle": "dark",
+    "enablePullDownRefresh": true
+  },
+  "tabBar": {
+    "selectedColor": "#ee0011",
+    "list": [
+      {
+        "pagePath": "pages/home/home",
+        "text": "首页",
+        "iconPath": "assets/tabbar/home.png",
+        "selectedIconPath": "assets/tabbar/home_pre.png"
+      },
+      {
+        "pagePath": "pages/about/about",
+        "text": "交易",
+        "iconPath": "assets/tabbar/jiaoyi.png",
+        "selectedIconPath": "assets/tabbar/jiaoyi_pre.png"
+      },
+      {
+        "pagePath": "pages/category/category",
+        "text": "药材圈",
+        "iconPath": "assets/tabbar/pengyouquan.png",
+        "selectedIconPath": "assets/tabbar/pengyouquan_pre.png"
+      },
+      {
+        "pagePath": "pages/personal/personal",
+        "text": "我的",
+        "iconPath": "assets/tabbar/wode.png",
+        "selectedIconPath": "assets/tabbar/wode_pre.png"
+      }
+    ]
+  },
+  "sitemapLocation": "sitemap14.json"
+}

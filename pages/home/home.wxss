@@ -1,0 +1,15 @@
+/* pages/home/home.wxss */
+
+.title{
+  color: red;
+  font-size: 20px;
+}
+
+.box{
+  background: red;
+}
+
+input{
+    border: 1px solid gray;
+    margin: 10px 10px; 
+}
