@@ -16,3 +16,6 @@
 
 <!-- 5全局样式导入 -->
 <button class="btn">确定</button>
+
+<!-- 引用自定义组件 -->
+<my_cpn></my_cpn>

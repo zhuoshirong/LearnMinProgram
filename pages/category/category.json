@@ -1,4 +1,6 @@
 {
-  "usingComponents": {},
+  "usingComponents": {
+    "my_cpn":"../componets/my_cpn/my_cpn"
+  },
   "navigationBarTitleText": "药材圈"
 }

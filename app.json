@@ -24,14 +24,8 @@
         "selectedIconPath": "image/tabbar/home_pre.png"
       },
       {
-        "pagePath": "pages/about/about",
-        "text": "交易",
-        "iconPath": "image/tabbar/about.png",
-        "selectedIconPath": "image/tabbar/about_pre.png"
-      },
-      {
         "pagePath": "pages/category/category",
-        "text": "分类",
+        "text": "发供求",
         "iconPath": "image/tabbar/category.png",
         "selectedIconPath": "image/tabbar/category_pre.png"
       },
